@@ -3,6 +3,422 @@ A simplified Morse code library to be used as a method of Communication.
 
 This is a light weight morse library based on morse2go project with addition of direct keyboard and mouse support. 
 
+# Morse code mapping ( Keyboard mode )
+ <table style="width:100%">
+  <tr>
+    <th>Morse code</th>
+    <th>Result</th>
+  </tr>
+    <tr>
+    <td>.-</td>
+    <td>a</td>
+  </tr>
+    <tr>
+    <td>-...</td>
+    <td>b</td>
+  </tr>
+    <tr>
+    <td>---.</td>
+    <td>c</td>
+  </tr>
+    <tr>
+    <td>-..</td>
+    <td> d</td>
+  </tr>
+    <tr>
+    <td>.</td>
+    <td> e</td>
+  </tr>
+    <tr>
+    <td>..-.</td>
+    <td> f</td>
+  </tr>
+    <tr>
+    <td>--.</td>
+    <td> g</td>
+  </tr>
+    <tr>
+    <td>....</td>
+    <td> h</td>
+  </tr>
+    <tr>
+    <td>..</td>
+    <td> i</td>
+  </tr>
+    <tr>
+    <td>.---</td>
+    <td> j</td>
+  </tr>
+    <tr>
+    <td>-.-</td>
+    <td>k</td>
+  </tr>
+    <tr>
+    <td>.-..</td>
+    <td>l</td>
+  </tr>
+    <tr>
+    <td>----</td>
+    <td>m</td>
+  </tr>
+    <tr>
+    <td>-.</td>
+    <td>n</td>
+  </tr>
+    <tr>
+    <td>---</td>
+    <td>o</td>
+  </tr>
+    <tr>
+    <td>.--.</td>
+    <td>p</td>
+  </tr>
+    <tr>
+    <td>--.-</td>
+    <td>q</td>
+  </tr>
+    <tr>
+    <td>.-.</td>
+    <td>r</td>
+  </tr>
+    <tr>
+    <td>...</td>
+    <td>s</td>
+  </tr>
+    <tr>
+    <td>-</td>
+    <td>t</td>
+  </tr>
+    <tr>
+    <td>..-</td>
+    <td>u</td>
+  </tr>
+    <tr>
+    <td>...-</td>
+    <td>v</td>
+  </tr>
+    <tr>
+    <td>.--</td>
+    <td>w</td>
+  </tr>
+    <tr>
+    <td>-..-</td>
+    <td>x</td>
+  </tr>
+    <tr>
+    <td>-.--</td>
+    <td>y</td>
+  </tr>
+    <tr>
+    <td>--..</td>
+    <td>z</td>
+  </tr>
+    <tr>
+    <td>.----</td>
+    <td>1</td>
+  </tr>
+    <tr>
+    <td>..---</td>
+    <td>2</td>
+  </tr>
+    <tr>
+    <td>...--</td>
+    <td>3</td>
+  </tr>
+    <tr>
+    <td>....-</td>
+    <td>4</td>
+  </tr>
+    <tr>
+    <td>.....</td>
+    <td>5</td>
+  </tr>
+    <tr>
+    <td>-....</td>
+    <td>6</td>
+  </tr>
+    <tr>
+    <td>--...</td>
+    <td>7</td>
+  </tr>
+    <tr>
+    <td>---..</td>
+    <td>8</td>
+  </tr>
+    <tr>
+    <td>----.</td>
+    <td>9</td>
+  </tr>
+    <tr>
+    <td>-----</td>
+    <td>0</td>
+  </tr>
+    <tr>
+    <td>----..</td>
+    <td> '\'</td>
+  </tr>
+    <tr>
+    <td>....--</td>
+    <td> /</td>
+  </tr>
+    <tr>
+    <td>.--...</td>
+    <td> [</td>
+  </tr>
+    <tr>
+    <td>-..---</td>
+    <td> ]</td>
+  </tr>
+    <tr>
+    <td>--..--</td>
+    <td> <</td>
+  </tr>
+    <tr>
+    <td>..--..</td>
+    <td> ></td>
+  </tr>
+    <tr>
+    <td>---...</td>
+    <td> (</td>
+  </tr>
+    <tr>
+    <td>...---</td>
+    <td> )</td>
+  </tr>
+    <tr>
+    <td>--..-</td>
+    <td>}</td>
+  </tr>
+    <tr>
+    <td>..--.</td>
+    <td>{</td>
+  </tr>
+    <tr>
+    <td>.-----</td>
+    <td> .</td>
+  </tr>
+    <tr>
+    <td>-.....</td>
+    <td>,</td>
+  </tr>
+    <tr>
+    <td>----.-</td>
+    <td> _</td>
+  </tr>
+    <tr>
+    <td>....-.</td>
+    <td>|</td>
+  </tr>
+    <tr>
+    <td>-.----</td>
+    <td> ?</td>
+  </tr>
+    <tr>
+    <td>.-....</td>
+    <td> !</td>
+  </tr>
+    <tr>
+    <td>-....-</td>
+    <td>;</td>
+  </tr>
+    <tr>
+    <td>.----.</td>
+    <td>:</td>
+  </tr>
+    <tr>
+    <td>.---.</td>
+    <td> -</td>
+  </tr>
+    <tr>
+    <td>..----</td>
+    <td> $</td>
+  </tr>
+    <tr>
+    <td>...-.-</td>
+    <td> %</td>
+  </tr>
+    <tr>
+    <td>...--.</td>
+    <td>"</td>
+  </tr>
+    <tr>
+    <td>---..-</td>
+    <td> @</td>
+  </tr>
+    <tr>
+    <td>..-...</td>
+    <td> '</td>
+  </tr>
+    <tr>
+    <td>--.---</td>
+    <td> `</td>
+  </tr>
+    <tr>
+    <td>-...--</td>
+    <td> ^</td>
+  </tr>
+    <tr>
+    <td>---.--</td>
+    <td>~</td>
+  </tr>
+    <tr>
+    <td>..---.</td>
+    <td> #</td>
+  </tr>
+    <tr>
+    <td>.---..</td>
+    <td> &</td>
+  </tr>
+    <tr>
+    <td>-...-</td>
+    <td> +</td>
+  </tr>
+    <tr>
+    <td>---.-</td>
+    <td> =</td>
+  </tr>
+    <tr>
+    <td>-..--</td>
+    <td> *</td>
+  </tr>
+    <tr>
+    <td>..--</td>
+    <td> Space</td>
+  </tr>
+    <tr>
+    <td>.-.-</td>
+    <td> Enter</td>
+  </tr>
+    <tr>
+    <td>--</td>
+    <td>Backspace </td>
+  </tr>
+    <tr>
+    <td>--...-</td>
+    <td>Shift</td>
+  </tr>
+    <tr>
+    <td>-.-.</td>
+    <td>Ctrl</td>
+  </tr>
+    <tr>
+    <td>--.--</td>
+    <td>Alt</td>
+  </tr>
+    <tr>
+    <td>.-..-</td>
+    <td>Arrow Up</td>
+  </tr>
+    <tr>
+    <td>.--..</td>
+    <td>Arrow Down </td>
+  </tr>
+    <tr>
+    <td>.-.-..</td>
+    <td>Arrow Left</td>
+  </tr>
+    <tr>
+    <td>.-.-.</td>
+    <td>Arrow Right</td>
+  </tr>
+    <tr>
+    <td>.....-</td>
+    <td>PgUp</td>
+  </tr>
+    <tr>
+    <td>...-..</td>
+    <td>PgDown</td>
+  </tr>
+    <tr>
+    <td>.......</td>
+    <td>Home</td>
+  </tr>
+    <tr>
+    <td>...-...</td>
+    <td>End</td>
+  </tr>
+    <tr>
+    <td>---...-</td>
+    <td>NumLock</td>
+  </tr>
+    <tr>
+    <td>--.-..</td>
+    <td> ScrollLock</td>
+  </tr>
+    <tr>
+    <td>-----.</td>
+    <td>CapsLock</td>
+  </tr>
+    <tr>
+    <td>--....</td>
+    <td>ESC</td>
+  </tr>
+    <tr>
+    <td>-.-..</td>
+    <td>Insert</td>
+  </tr>
+    <tr>
+    <td>-.--..</td>
+    <td>Delete</td>
+  </tr>
+    <tr>
+    <td>--.--.</td>
+    <td>PrtScn</td>
+  </tr>
+    <tr>
+    <td>..-..-</td>
+    <td>Hold</td>
+  </tr>
+    <tr>
+    <td>--.----</td>
+    <td>F1</td>
+  </tr>
+    <tr>
+    <td>--..---</td>
+    <td>F2</td>
+  </tr>
+    <tr>
+    <td>--...--</td>
+    <td>F3</td>
+  </tr>
+    <tr>
+    <td>--....-</td>
+    <td>F4</td>
+  </tr>
+    <tr>
+    <td>--.....</td>
+    <td>F5</td>
+  </tr>
+    <tr>
+    <td>---....</td>
+    <td>F6</td>
+  </tr>
+    <tr>
+    <td>----...</td>
+    <td>F7</td>
+  </tr>
+    <tr>
+    <td>-----..</td>
+    <td>F8</td>
+  </tr>
+    <tr>
+    <td>------.</td>
+    <td>F9</td>
+  </tr>
+    <tr>
+    <td>-------</td>
+    <td>F10</td>
+  </tr>
+    <tr>
+    <td>.------</td>
+    <td> F11</td>
+  </tr>
+    <tr>
+    <td>..-----</td>
+    <td> F12</td>
+  </tr> 
+ </table> 
+
 # Morse code mapping ( Mouse mode )
 
  <table style="width:100%">
