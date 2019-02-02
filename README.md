@@ -155,7 +155,7 @@ This is a light weight morse library based on morse2go project with addition of 
   </tr>
     <tr>
     <td>----..</td>
-    <td> '\'</td>
+    <td> \</td>
   </tr>
     <tr>
     <td>....--</td>
