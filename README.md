@@ -1,5 +1,5 @@
 # EasyMorse
-A simplified Morse code library to be used as a method of Communication.
+A light weight Morse code library to be used as a method of Communication along adaptive switches for open-source Assistive Technology projects.
 
 This is a light weight morse library based on morse2go project with addition of direct keyboard and mouse support. 
 
