@@ -5,7 +5,7 @@
 //Based on : https://github.com/morse2go/morse2go
 
 #include <stdlib.h>
-#include <cstring>
+//#include <cstring>
 #include "Arduino.h"
 #include "EasyMorse.h"
 

@@ -98,7 +98,7 @@ void loop() {
   morse.push(2);
   delay(1000);
   Keyboard.write(morse.getCharAscii()); 
-e  morse.clear();
+  morse.clear();
 
   delay(5000);
 }
