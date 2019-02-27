@@ -21,16 +21,14 @@
 
 typedef struct { 
   int num;
-  int numCode;
-  char* charCode;
-  char* lowerChar;
+  long int numCode;
+  const char* lowerChar;
   int asciiCode;
 } charStruct;
 
 typedef struct { 
   int num;
-  int numCode;
-  char* charCode;
+  long int numCode;
 } mouseStruct;
 
 
