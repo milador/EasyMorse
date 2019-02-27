@@ -365,58 +365,6 @@ This is a light weight morse library based on morse2go project with addition of 
     <td>--.--.</td>
     <td>PrtScn</td>
   </tr>
-    <tr>
-    <td>..-..-</td>
-    <td>Hold</td>
-  </tr>
-    <tr>
-    <td>--.----</td>
-    <td>F1</td>
-  </tr>
-    <tr>
-    <td>--..---</td>
-    <td>F2</td>
-  </tr>
-    <tr>
-    <td>--...--</td>
-    <td>F3</td>
-  </tr>
-    <tr>
-    <td>--....-</td>
-    <td>F4</td>
-  </tr>
-    <tr>
-    <td>--.....</td>
-    <td>F5</td>
-  </tr>
-    <tr>
-    <td>---....</td>
-    <td>F6</td>
-  </tr>
-    <tr>
-    <td>----...</td>
-    <td>F7</td>
-  </tr>
-    <tr>
-    <td>-----..</td>
-    <td>F8</td>
-  </tr>
-    <tr>
-    <td>------.</td>
-    <td>F9</td>
-  </tr>
-    <tr>
-    <td>-------</td>
-    <td>F10</td>
-  </tr>
-    <tr>
-    <td>.------</td>
-    <td> F11</td>
-  </tr>
-    <tr>
-    <td>..-----</td>
-    <td> F12</td>
-  </tr> 
  </table> 
 
 # Morse code mapping ( Mouse mode )
