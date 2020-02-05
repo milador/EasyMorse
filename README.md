@@ -18,7 +18,7 @@ This is a light weight morse library based on morse2go project with addition of 
     <td>b</td>
   </tr>
     <tr>
-    <td>---.</td>
+    <td>-.-.</td>
     <td>c</td>
   </tr>
     <tr>
@@ -58,7 +58,7 @@ This is a light weight morse library based on morse2go project with addition of 
     <td>l</td>
   </tr>
     <tr>
-    <td>----</td>
+    <td>--</td>
     <td>m</td>
   </tr>
     <tr>
@@ -154,131 +154,131 @@ This is a light weight morse library based on morse2go project with addition of 
     <td>0</td>
   </tr>
     <tr>
-    <td>----..</td>
+    <td>-.....</td>
     <td> \</td>
   </tr>
     <tr>
-    <td>....--</td>
+    <td>--..-</td>
     <td> /</td>
   </tr>
     <tr>
-    <td>.--...</td>
+    <td>..-...</td>
     <td> [</td>
   </tr>
     <tr>
-    <td>-..---</td>
+    <td>-.-...</td>
     <td> ]</td>
   </tr>
     <tr>
-    <td>--..--</td>
+    <td>.-...-</td>
     <td> <</td>
   </tr>
     <tr>
-    <td>..--..</td>
+    <td>--..-.</td>
     <td> ></td>
   </tr>
     <tr>
-    <td>---...</td>
+    <td>...--.</td>
     <td> (</td>
   </tr>
     <tr>
-    <td>...---</td>
+    <td>-..--.</td>
     <td> )</td>
   </tr>
     <tr>
-    <td>--..-</td>
+    <td>-.---.</td>
     <td>}</td>
   </tr>
     <tr>
-    <td>..--.</td>
+    <td>..---.</td>
     <td>{</td>
   </tr>
     <tr>
-    <td>.-----</td>
+    <td>.-.-.-</td>
     <td> .</td>
   </tr>
     <tr>
-    <td>-.....</td>
+    <td>--..--</td>
     <td>,</td>
   </tr>
     <tr>
-    <td>----.-</td>
+    <td>..--.</td>
     <td> _</td>
   </tr>
     <tr>
-    <td>....-.</td>
+    <td>...-..</td>
     <td>|</td>
   </tr>
     <tr>
-    <td>-.----</td>
+    <td>..--..</td>
     <td> ?</td>
   </tr>
     <tr>
-    <td>.-....</td>
+    <td>.-..--</td>
     <td> !</td>
   </tr>
     <tr>
-    <td>-....-</td>
+    <td>...-.</td>
     <td>;</td>
   </tr>
     <tr>
-    <td>.----.</td>
+    <td>-.-.-.</td>
     <td>:</td>
   </tr>
     <tr>
-    <td>.---.</td>
+    <td>---.</td>
     <td> -</td>
   </tr>
     <tr>
-    <td>..----</td>
+    <td>-...-.</td>
     <td> $</td>
   </tr>
     <tr>
-    <td>...-.-</td>
+    <td>.--.-.</td>
     <td> %</td>
   </tr>
     <tr>
-    <td>...--.</td>
+    <td>--.--</td>
     <td>"</td>
   </tr>
     <tr>
-    <td>---..-</td>
+    <td>.---.</td>
     <td> @</td>
   </tr>
     <tr>
-    <td>..-...</td>
+    <td>..-..-</td>
     <td> '</td>
   </tr>
     <tr>
-    <td>--.---</td>
+    <td>.-.--.</td>
     <td> `</td>
   </tr>
     <tr>
-    <td>-...--</td>
+    <td>-.-..-</td>
     <td> ^</td>
   </tr>
     <tr>
-    <td>---.--</td>
+    <td>--...-</td>
     <td>~</td>
   </tr>
     <tr>
-    <td>..---.</td>
+    <td>-.---</td>
     <td> #</td>
   </tr>
     <tr>
-    <td>.---..</td>
+    <td>-..--</td>
     <td> &</td>
   </tr>
     <tr>
-    <td>-...-</td>
+    <td>.--..</td>
     <td> +</td>
   </tr>
     <tr>
-    <td>---.-</td>
+    <td>.--.-</td>
     <td> =</td>
   </tr>
     <tr>
-    <td>-..--</td>
+    <td>.-...</td>
     <td> *</td>
   </tr>
     <tr>
@@ -290,79 +290,79 @@ This is a light weight morse library based on morse2go project with addition of 
     <td> Enter</td>
   </tr>
     <tr>
-    <td>--</td>
+    <td>----</td>
     <td>Backspace </td>
   </tr>
     <tr>
-    <td>--...-</td>
+    <td>..-.-</td>
     <td>Shift</td>
   </tr>
     <tr>
-    <td>-.-.</td>
+    <td>-.-.-</td>
     <td>Ctrl</td>
   </tr>
     <tr>
-    <td>--.--</td>
+    <td>.-.--</td>
     <td>Alt</td>
   </tr>
     <tr>
-    <td>.-..-</td>
+    <td>----..</td>
     <td>Arrow Up</td>
   </tr>
     <tr>
-    <td>.--..</td>
+    <td>------</td>
     <td>Arrow Down </td>
   </tr>
     <tr>
-    <td>.-.-..</td>
+    <td>----.-</td>
     <td>Arrow Left</td>
   </tr>
     <tr>
-    <td>.-.-.</td>
+    <td>-----.</td>
     <td>Arrow Right</td>
   </tr>
     <tr>
-    <td>.....-</td>
+    <td>---..-</td>
     <td>PgUp</td>
   </tr>
     <tr>
-    <td>...-..</td>
+    <td>---.-.</td>
     <td>PgDown</td>
   </tr>
     <tr>
-    <td>.......</td>
+    <td>....-.</td>
     <td>Home</td>
   </tr>
     <tr>
-    <td>...-...</td>
+    <td>-.-..</td>
     <td>End</td>
   </tr>
     <tr>
-    <td>---...-</td>
+    <td>-..-..</td>
     <td>NumLock</td>
   </tr>
     <tr>
-    <td>--.-..</td>
+    <td>...-.-</td>
     <td> ScrollLock</td>
   </tr>
     <tr>
-    <td>-----.</td>
+    <td>..-.-.</td>
     <td>CapsLock</td>
   </tr>
     <tr>
-    <td>--....</td>
+    <td>..-..</td>
     <td>ESC</td>
   </tr>
     <tr>
-    <td>-.-..</td>
+    <td>.-..-</td>
     <td>Insert</td>
   </tr>
     <tr>
-    <td>-.--..</td>
+    <td>-..-.</td>
     <td>Delete</td>
   </tr>
     <tr>
-    <td>--.--.</td>
+    <td>-....-</td>
     <td>PrtScn</td>
   </tr>
  </table> 
