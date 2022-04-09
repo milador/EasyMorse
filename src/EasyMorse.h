@@ -6,7 +6,7 @@
 //EasyMorse Library
 //EasyMorse.h
 //Written by: Milad Hajihassan
-//Version 1.0 (13/1/2019)
+//Version 1.2 (08/4/2022)
 //Based on : https://github.com/morse2go/morse2go
 
 /*

@@ -1,7 +1,7 @@
 //EasyMorse Library
 //EasyMorse.cpp
 //Written by: Milad Hajihassan
-//Version 1.0 (13/1/2019)
+//Version 1.2 (08/4/2022)
 //Based on : https://github.com/morse2go/morse2go
 
 /*
@@ -160,10 +160,9 @@ void EasyMorse::pop() {
 //Get number value of character. Example: .- = 12
 long EasyMorse::getCharNum() {
   int mult = 1;
-  int i;
   long charNum = 0;
   
-  for (i = pointer-1; i > -1; i--) {
+  for (int i = pointer-1; i > -1; i--) {
     charNum = charNum + (dotDash[i] * mult);
     mult = mult * 10;
   }
@@ -172,9 +171,7 @@ long EasyMorse::getCharNum() {
 
 //Get the resulting character 
 char EasyMorse::getChar() {  
-  int mult = 1;
-  int j;
-  char charOut;
+  char charOut = '\0';
   long charNum = getCharNum();
 
   //Search for character based on character number
@@ -190,8 +187,6 @@ char EasyMorse::getChar() {
 
 //Get the resulting Ascii code 
 int EasyMorse::getCharAscii() {  
-  int mult = 1;
-  int j;
   int asciiOut = 0;
   long charNum = getCharNum();
   //Search for Ascii code based on character number
@@ -207,8 +202,6 @@ int EasyMorse::getCharAscii() {
 
 //Get the resulting mouse action 
 int* EasyMorse::getMouse() {  
-  int mult = 1;
-  int j;
   static int mouseAction[4];
   mouseAction[0]= 0;
   mouseAction[1]= 0;
